@@ -1,4 +1,4 @@
-// variables
+  // variables
 const accordion = document.getElementsByClassName('content-container');
 // console.log(accordion);
 

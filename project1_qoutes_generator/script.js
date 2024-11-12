@@ -1,4 +1,4 @@
-// variables 
+ // variables 
 let btn = document.querySelector('#new-qoute');
 let quote = document.querySelector('.quote');
 let person = document.querySelector('.person');

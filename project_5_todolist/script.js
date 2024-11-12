@@ -46,13 +46,19 @@ addTask.addEventListener('click',function(){
         // task.style.display = "none";
         
         let target = e.target;
-        // console.log(target);
+        console.log(target);
         // console.log(target.parentElement);
         // console.log(target.parentElement.parentElement);
         // console.log(target.classList);
         // target.parentElement.parentElement.remove();
 
-        if(target.classList.contains('deleteTask')){
+        // if(target.classList.contains('deleteTask')){
+        //     target.parentElement.remove();
+        // } else {
+        //     target.parentElement.parentElement.remove();
+        // }
+
+        if(target.matches('button')){
             target.parentElement.remove();
         } else {
             target.parentElement.parentElement.remove();
